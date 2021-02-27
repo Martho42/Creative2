@@ -1,0 +1,162 @@
+
+body {
+  background-color: rgb(255, 239, 228);
+}
+
+.page-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.gap {
+  height: 100px;
+}
+
+.small-gap {
+  height: 25px;
+}
+
+input {
+    background-color: rgb(253, 247, 243);
+}
+
+.input-grid-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.input-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.input-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 8px;
+}
+
+.main-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 8px;
+}
+
+.info-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.info-grid-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+  width: 220px;
+  height: 450px;
+  background-color: rgb(255, 221, 198);
+}
+
+.info-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.item-image {
+  /*width: 200px;
+  height: 300px;*/
+  border-style: solid;
+  border-width: 1px;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+.main-image {
+  border-style: solid;
+  border-width: 1px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.switch-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+
+.switch-grid-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  margin: 10px;
+}
+
+

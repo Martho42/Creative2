@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anime Info</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class='small-gap'></div>
+  <div class='small-gap'></div>
+
+  <h1 class='page-item'>Martho's Anime Info</h1>
+
+  <div class='input-grid-container'>
+    <div class='input-grid'> 
+      <div class='input-item'>Enter an anime title</br>(E.g, Naruto)</div>
+      <input class='input-item' id="animeInput" type="text"></input>
+      <button type="button" id="mainSubmit" value="Submit" class="input-item btn btn-warning">Submit</button>
+    </div>
+  </div>
+
+  <div class='small-gap'></div>
+
+  <div class='main-grid-container'>
+    <div class='main-grid' id="mainResults">
+    </div>
+  </div>
+
+  <div class="small-gap"></div>
+
+  <div class='grid-container'>
+    <div class='switch-grid' id='switches'>
+        <button type="button" id="charsButton" value="Characters" class="switch-grid-item btn btn-warning">Characters</button>
+        <button type="button" id="recsButton" value="Recommendations" class="switch-grid-item btn btn-warning">Recommendations</button>
+    </div>
+  </div>
+
+  <div class='small-gap'></div>
+
+  <div class='info-grid-container'>
+    <div class='info-grid' id="infoResults">
+    </div>
+  </div>  
+
+
+  <em>
+    <hr>
+  </em>
+  <footer class="page-item">
+    <a class="github" href="">Github</a>
+  </footer>
+  <em>
+    <hr>
+  </em>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+    integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+</body>
+
+</html>
